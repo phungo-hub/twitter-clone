@@ -13,7 +13,7 @@ type Tweet = {
   createdAt: Date;
   likeCount: number;
   likedByMe: boolean;
-  user: { id: string; image: string | null; name: string | null };
+  user: { id: string | null; image: string | null; name: string | null };
 };
 
 type InfiniteTweetListProps = {
